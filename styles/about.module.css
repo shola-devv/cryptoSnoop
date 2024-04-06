@@ -1,0 +1,31 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 30px;
+    padding-top: 120px;
+}
+.about{
+    font-size: 25px;
+    font-weight: 300;
+    
+    
+}
+.story{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.boom{
+    padding: 10px
+}
+.full{
+    display:flex;
+    align-self: center;
+    padding: 100px;
+    min-width:400px
+}
+.icon{
+    padding: 5px;
+    border-radius: 2px;
+}

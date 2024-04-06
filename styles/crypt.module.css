@@ -1,0 +1,28 @@
+.crypt{
+
+    margin: 20px;
+}
+.div{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.div:hover{
+    border-left: 5px solid rgb(243, 208, 12);
+
+}
+.image{
+    border-radius: 5px;
+}
+.name{
+ background-color: rgb(243, 208,12);
+ border-radius: 5px;
+}
+.symbol{
+    background-color: rgb(38, 85, 240);
+    border-radius: 5px;
+   }
+.price{
+    background-color: rgb(11, 160, 16);
+    border-radius: 5px;
+   }

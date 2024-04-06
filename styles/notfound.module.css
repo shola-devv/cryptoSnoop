@@ -1,0 +1,20 @@
+.bod{
+  padding: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    background-color: rgba(235, 24, 214, 0);
+}
+
+.emo{
+    font-size: 25px;
+  }
+  .er{
+    font-size: 30px;
+font-weight: 300;
+  }
+
+  .pa{
+    padding: 8px;
+  }
