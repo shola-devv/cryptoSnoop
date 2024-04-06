@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import userReducer from "./feautures/name.js";
-import Pic from "./inputpic.js"
+
 
 
 export default function Moo() {
@@ -15,7 +15,7 @@ export default function Moo() {
   return (
 
     
-      <Provider store={store}> <Pic /> </Provider>
+      <Provider store={store}> </Provider>
       
       
 );}
