@@ -12,7 +12,7 @@ useEffect(()=>{
 setTimeout(()=>{
 route.push('/')
 }, 17000)
-}, [])
+}, )
 
 return (
   <>
