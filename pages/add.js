@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import userReducer from "./feautures/name.js";
