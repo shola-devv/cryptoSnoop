@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
-import userReducer from "./feautures/name.js"  
+import userReducer from "/feautures/name.js"  
 import { useEffect } from "react";
 import { useState } from "react";
 import { boolean } from "yup";

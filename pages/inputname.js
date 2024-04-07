@@ -1,7 +1,7 @@
 import Button from '../comps/button.js'
 import Image from 'next/image'
 import { useDispatch } from "react-redux";
-import { login } from  './feautures/name.js'
+import { login } from  '/feautures/name.js'
 import Link from 'next/link'
 import { useState } from 'react';
 import styles from '../styles/input.module.css'
