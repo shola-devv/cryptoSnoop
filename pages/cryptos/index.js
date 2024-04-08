@@ -98,7 +98,7 @@ return(
     <Image className='p-6' src={coin.icon} alt={coin.name} height={100} width={100}></Image>
    <h1 className='p-4 bg-orange-400 rounded-lg'>{coin.name}</h1>
    <h1 className='p-4  bg-blue-400 rounded-lg'>{coin.symbol}</h1>
-   <h1 className='p-4  bg-green-400 rounded-lg'>price: ${coin.price}</h1>
+   <h1 className='p-4  bg-green-400 rounded-lg'>price: ${coin.price.toLocaleString()}</h1>
   </div></Link>
   })}
 </div>
