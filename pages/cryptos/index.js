@@ -32,7 +32,7 @@ props: {
 */
 dotenv.config();
 
-export const getStaticProps = async ()=>{
+export const getServerSideProps = async ()=>{
 try{
   const options = {
     method: 'GET',
