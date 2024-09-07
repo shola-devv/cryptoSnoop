@@ -33,12 +33,14 @@ export default function  Name(){
     return(
         <div className={styles.body}>
            
-            <div className={styles.seg}>  <h1 className={styles.text}> pick a profile photo</h1>
+            <div className={styles.seg}>  
+                <h1 className={styles.text}> pick a profile photo</h1><br></br>
             <div   onClick={changePicture1}><Image className={style1} src='/pfp2.jpg' alt="pfp" height={100} width={100} ></Image></div>
      <div  onClick={changePicture2}><Image className={style2} src='/pfp1.jpg' alt="pfp" height={100} width={100} ></Image></div>
      
     </div>
-    <div className={styles.inputdad}> <h1 className={styles.text}>input your name</h1>
+    <div className={styles.inputdad}>
+         <h1 className={styles.text}>input your name:</h1><br></br>
               <input className={styles.input} onChange={changeName}></input>
               </div>
     <Link href='/cryptos'><Button value='continue' /></Link>

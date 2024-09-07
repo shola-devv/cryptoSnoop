@@ -17,25 +17,25 @@
 }
 @media(min-width: 400px){
     .div{
-        padding-left: 85px;
+        padding-left: 20pxpx;
     }}
 @media(max-width: 380px){
     .div{
-        padding-left: 135px;
+        padding-left: 90px;
     }}
 @media(max-width: 560px){
     .div{
-        padding-left: 140px;
+        padding-left: 100px;
     }
 
 }
 @media(min-width: 650px){
     .div{
-        padding-left: 450px;
+        padding-left: 400px;
     }}
 @media(min-width: 600px){
     .div{
-        padding-left: 450px;
+        padding-left: 460px;
     }}
 @media(min-width: 800px){
     .div{
@@ -43,12 +43,12 @@
     }}
 @media(min-width: 1000px){
     .div{
-        padding-left: 700px;
+        padding-left: 200px;
     }
 
 }
 @media(min-width: 1400px){
     .div{
-        padding-left: 1150px;
+        padding-left: 1120px;
     }
 }
