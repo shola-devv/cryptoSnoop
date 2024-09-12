@@ -48,7 +48,7 @@ export const getStaticPaths = async ()=>{
  
  */
 
-  export const getStaticProps = async (context)=>{
+  export const getStaticPr = async (context)=>{
     try{
       const id = context.params.id;
       const options = {
