@@ -9,6 +9,7 @@ import Navbar from '/comps/navbar.js';
 
 
 dotenv.config();
+/*
 export const getStaticPaths = async ()=>{
 
   
@@ -45,7 +46,7 @@ export const getStaticPaths = async ()=>{
  
  
  
- 
+ */
 
   export const getStaticProps = async (context)=>{
     try{
