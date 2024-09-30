@@ -48,7 +48,7 @@ export const getStaticPaths = async ()=>{
  
  */
 
-  export const getStaticPr = async (context)=>{
+  export const getStaticPaths = async (context)=>{
     try{
       const id = context.params.id;
       const options = {
@@ -61,6 +61,7 @@ export const getStaticPaths = async ()=>{
         }
        
       };
+      con
       const data = await Axios
       .request(options);
       
@@ -108,7 +109,7 @@ export default function  Crypto({ coin }){
         <div className="border border-transparent border-l-4 rounded-lg  text-xl p-8 font-bold">
         <Navbar />
            
-            <Image className='rounded-lg animate-bounce mt-8' src={coin.icon} alt={coin.name} height={150} width={150}></Image>
+        <Image className='rounded-lg animate-bounce mt-8' src={coin.icon} alt={coin.name} height={150} width={150}></Image>
             <div className='flex'><h1 className='p-4  bg-blue-400 pt-8 mb-8 rounded-lg'>name:<h1>{coin.name}</h1></h1>
             <h1 className='p-4  bg-orange-400 rounded-lg m-6'>symbol:<h1>{coin.symbol}</h1></h1></div>
          <div className='flex'>  <h1 className='p-4  bg-blue-400 mb-8 rounded-lg'>coin price: <h1>${coin.price.toLocaleString()}</h1></h1> 
