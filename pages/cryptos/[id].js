@@ -69,7 +69,8 @@ export const getStaticPaths = async ()=>{
         return {
           props: {
              coin : data.data,
-           }
+           },
+          revalidate: 60,
              
           }
         }
