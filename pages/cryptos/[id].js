@@ -48,7 +48,7 @@ export const getStaticPaths = async ()=>{
  
  */
 
-  export const getStaticPr = async (context)=>{
+  export const getStaticPaths = async (context)=>{
     try{
       const id = context.params.id;
       const options = {
@@ -68,7 +68,8 @@ export const getStaticPaths = async ()=>{
         return {
           props: {
              coin : data.data,
-           }
+           },
+          revalidate: 60,
              
           }
         }
