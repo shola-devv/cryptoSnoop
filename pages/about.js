@@ -26,7 +26,7 @@ export default function  About(){
         <h1 className={styles.about}> About the developer</h1>
        <div className={styles.story}>
         <p>&nbsp;  &nbsp; Hi there! im  Emmanuel Olushola Fayinminu. With a passion for technology and a keen intrest in the world of cryptos, i embarked on a journey to develop a app that provides users with real-time updates and comprehensive statistics on major cryptocurrencies. </p>
-        <p>&nbsp;&nbsp;Reach out to me <Link className='text-blue-500' href='https://x.com/OlusholaEmanuel'>here</Link>.</p>
+        <p>&nbsp;&nbsp;Reach out to me <Link className='text-blue-500' href='https://x.com/0xfeMMANUEL'>here</Link>.</p>
         </div>
         </div>
     )
