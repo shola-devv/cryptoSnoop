@@ -11,9 +11,9 @@ export default function Footer(){
 
 <div className={styles.foot}>
   
-     
-  <p className= {styles.copy}> &copy; {year} cryptosnoop.allrightreserved</p>
-          
+     <div className='pt-96 pl-60'>
+  <p className= ''> &copy; {year} cryptosnoop.allrightreserved</p>
+  </div>  
    </div>
    )
 }
