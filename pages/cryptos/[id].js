@@ -62,7 +62,7 @@ export const getStaticProps = async ({ params }) => {
 
     return {
       props: { coin },
-      revalidate: 60, // Revalidate at most once every 60 seconds
+      revalidate: 500, // Revalidate at most once every 60 seconds
     };
   } catch (error) {
     console.error('Error fetching data:', error);

@@ -2,7 +2,6 @@
 import Axios from 'axios';
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
 import Link from 'next/link';
 import dotenv from 'dotenv';
 import Navbar from '/comps/navbar.js';
