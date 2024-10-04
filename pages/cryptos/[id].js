@@ -120,7 +120,7 @@ export default Crypto;
 
 /*
 export const getStaticPaths = async ()=>{
-
+//kill em
   
     const options = {
       method: 'GET',
