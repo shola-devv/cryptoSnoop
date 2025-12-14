@@ -1,9 +1,11 @@
 # CryptoSnoop - Crypto Tracker Web App
 
 ## Overview
-updated webapp(built with typescript on nextjs)- https://cryptosnoop.app
+updated webapp(built with typescript on nextjs) - https://cryptosnoop.app
+updated versions repo is private please request for 
+access to view it https://sholaemmanuel.dev
 
-webapp- https://crypto-snoop-v2.vercel.app/
+previous webapp version (this repo is its source code) - https://crypto-snoop-v2.vercel.app/
 
 CryptoSnoop is a real-time cryptocurrency tracker web app that allows users to monitor live statistics of selected cryptocurrencies. It offers up-to-date price information for various coins, making it a valuable tool for anyone interested in tracking the prices of their favorite crypto assets. Built with JavaScript and CSS on Nextjs, the app delivers a smooth and responsive user experience.
 
