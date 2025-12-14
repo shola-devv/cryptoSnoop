@@ -1,7 +1,9 @@
 # CryptoSnoop - Crypto Tracker Web App
 
 ## Overview
-CryptoSnoop is a real-time cryptocurrency tracker web app that allows users to monitor live statistics of selected cryptocurrencies. It offers up-to-date price information for various coins, making it a valuable tool for anyone interested in tracking the prices of their favorite crypto assets. Built with JavaScript and CSS, the app delivers a smooth and responsive user experience.
+updated webapp(built with typescript on nextjs)- cryptosnoop.app
+https://crypto-snoop-v2.vercel.app/
+CryptoSnoop is a real-time cryptocurrency tracker web app that allows users to monitor live statistics of selected cryptocurrencies. It offers up-to-date price information for various coins, making it a valuable tool for anyone interested in tracking the prices of their favorite crypto assets. Built with JavaScript and CSS on Nextjs, the app delivers a smooth and responsive user experience.
 
 ## Features
 - **Live Cryptocurrency Prices**: View up-to-date price data for selected cryptocurrencies.
@@ -10,6 +12,7 @@ CryptoSnoop is a real-time cryptocurrency tracker web app that allows users to m
 - **Simple User Interface**: Clean and intuitive design for effortless navigation.
 
 ## Technologies Used
+Nextjs
 - **JavaScript**: Handles application logic and fetches live data from the API.
 - **CSS**: For styling and ensuring a responsive layout.
   
